@@ -46,15 +46,15 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 
 | Model (code / repository) | Primary echo type | Paper | Pretrained weights |
 |---|---|---|---|
-| **[EchoCLIP / EchoCLIP-R](https://github.com/echonet/echo_CLIP)** — multimodal vision–language interpretation | TTE (A4C, tissue Doppler, color Doppler) | [Paper]([https://arxiv.org/abs/2308.15670](https://www.nature.com/articles/s41591-024-02959-y)) | [Weights / instructions](https://github.com/echonet/echo_CLIP#quickstart) |
-| **[EchoFM]** — generalizable echocardiogram analysis | TTE | [Paper](https://doi.org/10.1109/TMI.2025.3580713) | [Weights / instructions]([https://huggingface.co/sekeun/EchoFM](https://github.com/echonet/echo_CLIP)) |
-| **[EchoApex](https://arxiv.org/abs/2410.11092)** — general-purpose vision foundation model | TTE, TEE, ICE | [Paper](https://arxiv.org/abs/2410.11092) | Not verified |
-| **[Echo-Vision-FM](https://github.com/ZiyangZhang0511/Echo-Vison-FM)** — echocardiography video pretraining and fine-tuning | TTE | [Paper](https://doi.org/10.1038/s41467-025-66340-4) | [Weights / instructions](https://github.com/ZiyangZhang0511/Echo-Vison-FM/releases/tag/v1) |
-| **[PanEcho](https://github.com/CarDS-Yale/PanEcho)** — multitask echocardiography interpretation | TTE, multiple views | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12186137/) | [Weights / instructions](https://github.com/CarDS-Yale/PanEcho#model-usage) |
-| **[EchoPrime](https://github.com/echonet/EchoPrime)** — multi-video vision–language interpretation | Adult TTE | [Paper](https://github.com/echonet/EchoPrime) | [Weights / instructions](https://github.com/echonet/EchoPrime/releases/tag/v1.0.0) |
-| **[EchoFlow](https://huggingface.co/HReynaud/EchoFlow)** — cardiac ultrasound image/video generation | TTE / cardiac ultrasound | [Paper](https://arxiv.org/abs/2503.22357) | [Weights / instructions](https://huggingface.co/HReynaud/EchoFlow/tree/main) |
-| **[EchoJEPA](https://github.com/bowang-lab/EchoJEPA)** — latent predictive echocardiography foundation model | Primarily TTE / clinical echo video | [Paper](https://arxiv.org/abs/2602.02603) | [Weights / instructions](https://github.com/bowang-lab/EchoJEPA#echojepa-checkpoints) |
-| **[Add echo model](https://example.org)** | [TTE / TEE / ICE] | [Paper](https://example.org) | [Weights](https://example.org) |
+| **EchoCLIP / EchoCLIP-R** — multimodal vision–language interpretation | TTE (A4C, tissue Doppler, color Doppler) | [Paper](https://www.nature.com/articles/s41591-024-02959-y) | [Weights / instructions](https://github.com/echonet/echo_CLIP#quickstart) |
+| **EchoFM** — generalizable echocardiogram analysis | TTE | [Paper](https://doi.org/10.1109/TMI.2025.3580713) | [Weights / instructions](https://huggingface.co/sekeun/EchoFM) |
+| **EchoApex** — general-purpose vision foundation model | TTE, TEE, ICE | [Paper](https://arxiv.org/abs/2410.11092) | Not verified |
+| **Echo-Vision-FM** — echocardiography video pretraining and fine-tuning | TTE | [Paper](https://doi.org/10.1038/s41467-025-66340-4) | [Weights / instructions](https://github.com/ZiyangZhang0511/Echo-Vison-FM/releases/tag/v1) |
+| **PanEcho** — multitask echocardiography interpretation | TTE, multiple views | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12186137/) | [Weights / instructions](https://github.com/CarDS-Yale/PanEcho#model-usage) |
+| **EchoPrime** — multi-video vision–language interpretation | Adult TTE | [Paper](https://github.com/echonet/EchoPrime) | [Weights / instructions](https://github.com/echonet/EchoPrime/releases/tag/v1.0.0) |
+| **EchoFlow** — cardiac ultrasound image/video generation | TTE / cardiac ultrasound | [Paper](https://arxiv.org/abs/2503.22357) | [Weights / instructions](https://huggingface.co/HReynaud/EchoFlow/tree/main) |
+| **EchoJEPA** — latent predictive echocardiography foundation model | Primarily TTE / clinical echo video | [Paper](https://arxiv.org/abs/2602.02603) | [Weights / instructions](https://github.com/bowang-lab/EchoJEPA#echojepa-checkpoints) |
+| **Add echo model** | [TTE / TEE / ICE] | [Paper](https://example.org) | [Weights](https://example.org) |
 
 **Weight status convention:** **Yes** = official model files or loading instructions listed; **Not verified** = no official checkpoint confirmed; **Listed, download reliability uncertain** = checkpoint described but access may be unreliable. Listing does not establish clinical readiness or unrestricted reuse.
 
