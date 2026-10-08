@@ -41,6 +41,21 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 
 ## 2. Foundation models
 
+| Model | Primary echo type | Paper | GitHub / code | Pretrained weights | Status and notes |
+|---|---|---|---|---|---|
+| **EchoCLIP / EchoCLIP-R** — multimodal vision–language interpretation | TTE (including A4C, tissue Doppler and color Doppler) | [Paper](https://arxiv.org/abs/2308.15670) | [Official GitHub](https://github.com/echonet/echo_CLIP) | [Loading instructions and checkpoints](https://github.com/echonet/echo_CLIP#quickstart) | **Yes** — repository provides example code for loading both variants, including EchoCLIP-R. |
+| **EchoFM** — foundation model for generalizable echocardiogram analysis | TTE | [IEEE TMI paper](https://doi.org/10.1109/TMI.2025.3580713) | [Official GitHub](https://github.com/SekeunKim/EchoFM) | [Hugging Face checkpoint](https://huggingface.co/sekeun/EchoFM) | **Yes** — official pretrained checkpoint. **CC BY-NC-ND 4.0**, with non-commercial academic-research restrictions noted by authors. |
+| **EchoApex** — general-purpose vision foundation model | TTE, TEE, ICE | [arXiv paper](https://arxiv.org/abs/2410.11092) | Not verified (no official code repository confirmed) | Not verified | **No verified public checkpoint** — do not mark weights as available without an official download. |
+| **Echo-Vision-FM** — echocardiography video pretraining and fine-tuning | TTE | [Nature Communications paper](https://doi.org/10.1038/s41467-025-66340-4) | [Official GitHub](https://github.com/ZiyangZhang0511/Echo-Vison-FM) | [GitHub release v1](https://github.com/ZiyangZhang0511/Echo-Vison-FM/releases/tag/v1) | **Yes** — author-provided pretrained checkpoint in release. Repo spells “Vison” (not “Vision”). |
+| **PanEcho** — multitask echocardiography interpretation | TTE, multiple views | [JAMA paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12186137/) | [Official GitHub](https://github.com/CarDS-Yale/PanEcho) | [PyTorch Hub loading instructions](https://github.com/CarDS-Yale/PanEcho#model-usage) | **Yes** — weights load via `torch.hub`; multitask interpretation model rather than a purely self-supervised foundation encoder. |
+| **EchoPrime** — multi-video vision–language interpretation | Adult TTE | [Paper and citation](https://github.com/echonet/EchoPrime) | [Official GitHub](https://github.com/echonet/EchoPrime) | [Official model-data release](https://github.com/echonet/EchoPrime/releases/tag/v1.0.0) | **Yes** — inference code and model-data bundles, including encoders and associated assets. |
+| **EchoFlow** — cardiac ultrasound image/video generation | TTE / cardiac ultrasound | [arXiv paper](https://arxiv.org/abs/2503.22357) | [Hugging Face model and inference examples](https://huggingface.co/HReynaud/EchoFlow) | [Model files](https://huggingface.co/HReynaud/EchoFlow/tree/main) | **Yes** — Hugging Face model files; model card lists Apache-2.0. [Demo](https://huggingface.co/spaces/HReynaud/EchoFlow). |
+| **EchoJEPA** — latent predictive echocardiography foundation model | Primarily TTE / clinical echo video | [arXiv paper](https://arxiv.org/abs/2602.02603) | [Official GitHub](https://github.com/bowang-lab/EchoJEPA) | [EchoJEPA checkpoint section](https://github.com/bowang-lab/EchoJEPA#echojepa-checkpoints) | **Listed, download reliability uncertain** — official README distinguishes trained EchoJEPA checkpoints from *V-JEPA 2 initialization* weights; users have reported broken checkpoint links in [issue #8](https://github.com/bowang-lab/EchoJEPA/issues/8). Confirm the exact echo-trained file before use. |
+| **[Add echo model]** | [TTE / TEE / ICE] | [Paper](https://example.org) | [Code](https://example.org) | [Weights](https://example.org) | [Licence, availability, limitations] |
+
+**Weight status convention:** **Yes** = official model files or loading instructions listed; **Not verified** = no official checkpoint confirmed; **Listed, download reliability uncertain** = checkpoint described but access may be unreliable. Listing does not establish clinical readiness or unrestricted reuse.
+
+
 ### ECG and physiological signals
 
 | Model | Task / modalities | Code | Weights | Paper | Notes |
