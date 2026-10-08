@@ -10,34 +10,10 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 - [Foundation models](#2-foundation-models)
 - [Papers](#3-papers)
 - [How to add a resource](#4-how-to-add-a-resource)
+- Unrelated but Interesting Papers
 
 ## 1. Datasets
 
-### ECG and electrophysiology
-
-| Dataset | What it contains / potential use | Access & restrictions | Link |
-|---|---|---|---|
-| PTB-XL | Labelled 12-lead ECG recordings; classification and benchmarking | Review terms and citation requirements | [PhysioNet](https://physionet.org/content/ptb-xl/1.0.3/) |
-| **[Add dataset]** | [Modality, cohort, labels, approximate size] | [Open / registration / credentialed; licence] | [Official dataset](https://example.org) |
-
-### Echocardiography
-
-| Dataset | What it contains / potential use | Access & restrictions | Link |
-|---|---|---|---|
-| EchoNet-Dynamic | Echocardiography videos with cardiac-function labels | Registration; non-commercial research-use agreement | [Official site](https://echonet.github.io/dynamic/) |
-| **[Add dataset]** | [Views, videos, segmentation or outcome labels] | [Terms] | [Official dataset](https://example.org) |
-
-### Cardiac MRI / CT
-
-| Dataset | What it contains / potential use | Access & restrictions | Link |
-|---|---|---|---|
-| **[Add CMR/CT dataset]** | [Imaging modality, tasks, labels] | [Terms] | [Official dataset](https://example.org) |
-
-### EHR, wearables and multimodal data
-
-| Dataset | What it contains / potential use | Access & restrictions | Link |
-|---|---|---|---|
-| **[Add dataset]** | [Clinical records / signals / modalities] | [Terms, ethical approval if applicable] | [Official dataset](https://example.org) |
 
 ## 2. Foundation models
 
@@ -119,6 +95,8 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 3. Include a **one-sentence description** plus access/licensing constraints where relevant.
 4. Check that the URL works and avoid duplicates. Record the last review date when maintaining an entry.
 5. Never commit patient-level data, access tokens, credentials or restricted files to this repository.
+
+## 4. How to add a resource 
 
 > **Reusable row templates** (copy a row into the appropriate section):
 >
