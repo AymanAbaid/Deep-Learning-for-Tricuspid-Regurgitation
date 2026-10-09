@@ -21,19 +21,20 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 
 ### Echocardiography foundation models
 
-| Model (code / repository) | Primary echo type | Paper | Pretrained weights |
+| Model | Primary echo type | Paper | Pretrained weights |
 |---|---|---|---|
 | **EchoCLIP / EchoCLIP-R** — multimodal vision–language interpretation | TTE (A4C, tissue Doppler, color Doppler) | [Paper](https://www.nature.com/articles/s41591-024-02959-y) | [Weights / instructions](https://github.com/echonet/echo_CLIP#quickstart) |
-| **EchoFM** — generalizable echocardiogram analysis | TTE | [Paper](https://doi.org/10.1109/TMI.2025.3580713) | [Weights / instructions](https://huggingface.co/sekeun/EchoFM) |
-| **EchoApex** — general-purpose vision foundation model | TTE, TEE, ICE | [Paper](https://arxiv.org/abs/2410.11092) | Not verified |
-| **Echo-Vision-FM** — echocardiography video pretraining and fine-tuning | TTE | [Paper](https://www.nature.com/articles/s41467-025-66340-4) | [Weights / instructions](https://github.com/ZiyangZhang0511/Echo-Vison-FM) |
-| **PanEcho** — multitask echocardiography interpretation | TTE, multiple views | [Paper](https://jamanetwork.com/journals/jama/fullarticle/2835630?guestAccessKey=27a79d8c-caca-4f4a-ad10-70c202cdfe4e&utm_source=twitter&utm_medium=social_jama&utm_term=17313965533&utm_campaign=article_alert&linkId=833098185) | [Weights / instructions](https://github.com/CarDS-Yale/PanEcho#model-usage) |
-| **EchoPrime** — multi-video vision–language interpretation | Adult TTE | [Paper](https://www.nature.com/articles/s41586-025-09850-x) | [Weights / instructions](https://github.com/echonet/EchoPrime |
-| **EchoFlow** — cardiac ultrasound image/video generation | TTE / cardiac ultrasound | [Paper](https://arxiv.org/abs/2503.22357) | [Weights / instructions](https://huggingface.co/HReynaud/EchoFlow/tree/main) |
-| **EchoJEPA** — latent predictive echocardiography foundation model | Primarily TTE / clinical echo video | [Paper](https://arxiv.org/abs/2602.02603) | [Weights / instructions](https://github.com/bowang-lab/EchoJEPA#echojepa-checkpoints) |
-| **EchoVLM** — Dynamic Mixture-of-Experts Vision-Language Model for Universal Ultrasound Intelligenc| Primarily TTE / clinical echo video | [Paper](https://aclanthology.org/2026.acl-long.494/) | [Weights / instructions](https://github.com/Asunatan/EchoVLM) |
-| **EchoVLM** — Measurement-Grounded Multimodal Learning for Echocardiography | Primarily TTE / clinical echo video | [Paper](https://arxiv.org/abs/2512.12107) | [Weights / instructions](s) |
-| **Add echo model** | [TTE / TEE / ICE] | [Paper](https://example.org) | [Weights](https://example.org) |
+| **EchoFM** — generalizable echocardiogram analysis | TTE | [Paper](https://doi.org/10.1109/TMI.2025.3580713) | [Checkpoint](https://huggingface.co/sekeun/EchoFM) |
+| **EchoApex** — general-purpose vision foundation model | TTE, TEE, ICE | [Paper](https://arxiv.org/abs/2410.11092) | Not Available |
+| **Echo-Vision-FM** — echocardiography video pretraining and fine-tuning | TTE | [Paper](https://doi.org/10.1038/s41467-025-66340-4) | [Checkpoint release](https://github.com/ZiyangZhang0511/Echo-Vison-FM/releases/tag/v1) |
+| **PanEcho** — multitask echocardiography interpretation | TTE, multiple views | [Paper](https://jamanetwork.com/journals/jama/fullarticle/2835630) | [Model and loading instructions](https://github.com/CarDS-Yale/PanEcho) |
+| **EchoPrime** — multi-video vision–language interpretation | Adult TTE | [Paper](https://doi.org/10.1038/s41586-025-09850-x) | [Official weights and setup](https://github.com/echonet/EchoPrime) |
+| **EchoFlow** — cardiac ultrasound image/video generation | Cardiac ultrasound / TTE | [Paper](https://arxiv.org/abs/2503.22357) | [Model files](https://huggingface.co/HReynaud/EchoFlow/tree/main) |
+| **EchoJEPA** — latent predictive echocardiography foundation model | Clinical echocardiography video, primarily TTE | [Paper](https://arxiv.org/abs/2602.02603) | [Checkpoint instructions](https://github.com/bowang-lab/EchoJEPA#echojepa-checkpoints) |
+| **EchoVLM (MoE)** — dynamic mixture-of-experts vision–language model for general ultrasound | Multi-organ ultrasound (not TTE-specific) | [Paper](https://aclanthology.org/2026.acl-long.494/) | [Model weights](https://huggingface.co/chaoyinshe/EchoVLM) |
+| **EchoVLM (measurement-grounded)** — multimodal learning for echocardiography | Echocardiographic images / views | [Paper](https://arxiv.org/abs/2512.12107) | Not Available |
+| **Add echo model** | [TTE / TEE / ICE] | [Paper URL] | [Weights URL or availability] |
+
 
 
 **Weight status convention:** **Yes** = official model files or loading instructions listed; **Not verified** = no official checkpoint confirmed; **Listed, download reliability uncertain** = checkpoint described but access may be unreliable. Listing does not establish clinical readiness or unrestricted reuse.
