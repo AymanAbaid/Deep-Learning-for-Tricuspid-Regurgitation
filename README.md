@@ -57,27 +57,6 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 
 
 
-**Weight status convention:** **Yes** = official model files or loading instructions listed; **Not verified** = no official checkpoint confirmed; **Listed, download reliability uncertain** = checkpoint described but access may be unreliable. Listing does not establish clinical readiness or unrestricted reuse.
-
-
-### ECG and physiological signals
-
-| Model | Task / modalities | Code | Weights | Paper | Notes |
-|---|---|---|---|---|---|
-| ECG-FM | Pretrained ECG representation learning | [GitHub](https://github.com/bowang-lab/ecg-fm) | [See repository](https://github.com/bowang-lab/ecg-fm#-model) | [See repository](https://github.com/bowang-lab/ecg-fm) | Check model licence, preprocessing and external validation before reuse |
-| **[Add model]** | [Signals / ECG / wearable] | [Code](https://example.org) | [Weights](https://example.org) | [Paper](https://example.org) | [Strengths, limitations] |
-
-### Cardiovascular imaging
-
-| Model | Task / modalities | Code | Weights | Paper | Notes |
-|---|---|---|---|---|---|
-| **[Add model]** | [Echo / CMR / CT] | [Code](https://example.org) | [Weights](https://example.org) | [Paper](https://example.org) | [Pretraining, transfer tasks] |
-
-### Multimodal and clinical language models
-
-| Model | Task / modalities | Code | Weights | Paper | Notes |
-|---|---|---|---|---|---|
-| **[Add model]** | [Images + ECG + EHR / text] | [Code](https://example.org) | [Weights](https://example.org) | [Paper](https://example.org) | [Scope and validation] |
 
 ## 3. Papers
 
