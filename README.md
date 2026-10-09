@@ -10,7 +10,8 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 - [Foundation models](#2-foundation-models)
 - [Papers](#3-papers)
 - [How to add a resource](#4-how-to-add-a-resource)
-- [Unrelated but Interesting Papers] (#5-Interesting Papers)
+- [Interesting Papers](#5-interesting-papers)
+
 
 ## 1. Datasets
 
@@ -96,7 +97,7 @@ A curated, team-maintained index of cardiovascular AI **datasets**, **foundation
 4. Check that the URL works and avoid duplicates. Record the last review date when maintaining an entry.
 5. Never commit patient-level data, access tokens, credentials or restricted files to this repository.
 
-## 4. Interesting Papers
+## 5. Interesting Papers
 
 > Paper: `| [Title] | YYYY | [Why it matters] | [DOI](https://example.org) | [Optional code/data] |`
 
